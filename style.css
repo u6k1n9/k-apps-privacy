@@ -1,0 +1,36 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif; background: #0a0a0a; color: #e5e5e5; line-height: 1.6; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+h1 { font-size: 32px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+h2 { font-size: 22px; font-weight: 600; color: #fff; margin-top: 40px; margin-bottom: 20px; }
+h3 { font-size: 18px; font-weight: 600; color: #fff; margin-bottom: 4px; }
+.subtitle { font-size: 15px; color: #888; }
+p { font-size: 15px; color: #999; margin-bottom: 12px; }
+a { color: #4ea8de; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.app-card { background: #141414; border-radius: 16px; padding: 20px; border: 1px solid #222; }
+.app-card .emoji { font-size: 32px; display: block; margin-bottom: 8px; }
+.app-card p { font-size: 13px; color: #888; margin-bottom: 12px; }
+.links { display: flex; gap: 16px; }
+.links a { font-size: 13px; font-weight: 500; }
+
+/* Privacy & Support pages */
+.page-header { margin-bottom: 32px; }
+.page-header .back { font-size: 14px; color: #4ea8de; display: block; margin-bottom: 16px; }
+.page-header h1 { font-size: 28px; }
+.page-header .app-name { font-size: 14px; color: #4ea8de; display: block; margin-bottom: 4px; }
+.updated { font-size: 13px; color: #666; margin-bottom: 24px; display: block; }
+.section { margin-bottom: 24px; }
+.section h2 { font-size: 18px; margin-top: 0; margin-bottom: 8px; }
+.section p, .section li { font-size: 14px; color: #999; line-height: 1.7; }
+.section ul { padding-left: 20px; }
+.section li { margin-bottom: 4px; }
+
+.support-card { background: #141414; border-radius: 14px; padding: 20px; margin-bottom: 16px; border: 1px solid #222; }
+.support-card h3 { font-size: 16px; margin-bottom: 8px; }
+.support-card p { font-size: 14px; }
+
+footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #222; text-align: center; }
+footer p { font-size: 13px; color: #666; }
